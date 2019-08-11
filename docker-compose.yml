@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  database_postgres:
+    image: postgres:9.6.2
+    environment: ['http.host=0.0.0.0', 'transport.host=127.0.0.1']
+    ports: ['127.0.0.1:5432:5432']
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
