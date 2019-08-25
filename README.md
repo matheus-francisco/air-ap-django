@@ -23,7 +23,7 @@ python manage.py runserver
 ```
 
 
-### Use recommend use with nginx
+### Use recommend use with nginx in prod
 
 ```
 www.gunicor.org
